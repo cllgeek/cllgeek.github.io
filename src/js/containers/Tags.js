@@ -14,6 +14,7 @@ class Tags extends Component {
     const { dispatch } = this.props;
     dispatch(fetchIssuesIfNeeded('created', 10000));
   }
+
   // 拼接 json
   spliceJson(items) {
     let list = items,
@@ -39,6 +40,7 @@ class Tags extends Component {
     if (this.props.isFetching) {
       return null;
     }
+
     let articles = this.spliceJson(this.props.items),
         view = [];
 
@@ -57,6 +59,21 @@ class Tags extends Component {
   }
 };
 
-export default Tags
+function mapStateToProps(state) {
+  const {
+    isFetching,
+    items
+  } = state || {
+    isFetching: true,
+    items: []
+  };
+
+  return {
+    isFetching,
+    items
+  }
+}
+
+export default connect(mapStateToProps)(Tags);
 
 
