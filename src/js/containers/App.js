@@ -7,7 +7,6 @@ class App extends Component {
   constructor(props) {
     super(props);
     this.addBaiduAnaly = this.addBaiduAnaly.bind(this);
-    this.addDuoshuoComment = this.addDuoshuoComment.bind(this);
   }
 
   componentDidMount() {
@@ -15,7 +14,7 @@ class App extends Component {
     this.addBaiduAnaly();
 
     // 添加多说评论框
-    this.addDuoshuoComment();
+    // this.addDuoshuoComment();
   }
 
   componentWillReceiveProps(nextProps) {
@@ -37,17 +36,17 @@ class App extends Component {
     }
   }
 
-  addDuoshuoComment() {
-    window.duoshuoQuery = { short_name: CONFIG.duoshuo };
-    (function() {
-      var ds = document.createElement('script');
-      ds.type = 'text/javascript';
-      ds.async = true;
-      ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
-      ds.charset = 'UTF-8';
-      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(ds);
-    })();
-  }
+  // addDuoshuoComment() {
+  //   window.duoshuoQuery = { short_name: CONFIG.duoshuo };
+  //   (function() {
+  //     var ds = document.createElement('script');
+  //     ds.type = 'text/javascript';
+  //     ds.async = true;
+  //     ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
+  //     ds.charset = 'UTF-8';
+  //     (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(ds);
+  //   })();
+  // }
 
   render() {
     return (
