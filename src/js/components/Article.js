@@ -16,15 +16,15 @@ export default class Article extends Component {
     });
   }
 
-  // componentDidMount() {
-  //   // 显示多说评论框
-  //   this.toggleDuoshuoComment();
-  // }
+  componentDidMount() {
+    // 显示多说评论框
+    this.toggleDuoshuoComment();
+  }
 
-  // toggleDuoshuoComment() {
-  //   let ele = this.refs['ds'];
-  //   window.DUOSHUO.EmbedThread(ele);
-  // }
+  toggleDuoshuoComment() {
+    let ele = this.refs['ds'];
+    window.DUOSHUO.EmbedThread(ele);
+  }
 
   render() {
     return (
