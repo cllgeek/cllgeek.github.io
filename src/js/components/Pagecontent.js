@@ -24,7 +24,7 @@ export default class PageContent extends Component{
                     </p>
                 </div>
                 <div className="col-lg-5 col-lg-offset-2 col-sm-6 collapse navbar-collapse">
-                    <img className="img-circle img-responsive" src="http://qiniu.cllgeek.com/avatar.png" alt="" />
+                    <img className="img-circle img-responsive" src="https://www.cllgeek.com/avatar.png" alt="" />
                 </div>
             </div>
         </div>
