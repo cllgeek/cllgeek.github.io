@@ -14,7 +14,6 @@ class All extends Component {
     if (this.props.isFetching) {
       return null;
     }
-
     return (
       <div>
         <Nav />
@@ -26,19 +25,4 @@ class All extends Component {
   }
 };
 
-function mapStateToProps(state) {
-  const {
-    isFetching,
-    items
-  } = state || {
-    isFetching: true,
-    items: []
-  };
-
-  return {
-    isFetching,
-    items
-  }
-}
-
-export default connect(mapStateToProps)(All);
+export default All

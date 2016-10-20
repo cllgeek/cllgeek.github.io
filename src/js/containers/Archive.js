@@ -41,7 +41,6 @@ class Archive extends Component {
     if (this.props.isFetching) {
       return null;
     }
-
     let articles = this.spliceJson(this.props.items),
         view = [];
 
@@ -61,19 +60,4 @@ class Archive extends Component {
   }
 };
 
-function mapStateToProps(state) {
-  const {
-    isFetching,
-    items
-  } = state || {
-    isFetching: true,
-    items: []
-  };
-
-  return {
-    isFetching,
-    items
-  }
-}
-
-export default connect(mapStateToProps)(Archive);
+export default Archive

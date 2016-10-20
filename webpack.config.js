@@ -118,7 +118,7 @@ function getPlugins() {
         }
       }),
       new HtmlWebpackPlugin({
-        title: 'cobish - 写给未来的自己',
+        title: 'cllgeek - blog',
         filename: '../index.html',
         template: './src/html/index.html'
       }),

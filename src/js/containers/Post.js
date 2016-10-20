@@ -39,19 +39,5 @@ class Post extends Component {
   }
 };
 
-function mapStateToProps(state) {
-  const {
-    isFetching,
-    items
-  } = state || {
-    isFetching: true,
-    items: []
-  };
 
-  return {
-    isFetching,
-    items
-  }
-}
-
-export default connect(mapStateToProps)(Post);
+export default Post
