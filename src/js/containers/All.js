@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import { fetchIssuesIfNeeded } from '../actions/index.js';
 import CellView from '../components/CellView.js';
-import Menu from '../components/Menu'
+import Nav from '../components/Nav'
 
 class All extends Component {
   componentDidMount() {
@@ -17,7 +17,7 @@ class All extends Component {
 
     return (
       <div>
-        <Menu />
+        <Nav />
         <div className="list">
           <CellView title="全部" items={this.props.items} />
         </div>

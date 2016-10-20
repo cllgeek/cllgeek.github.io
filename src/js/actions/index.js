@@ -1,5 +1,4 @@
-// import fetch from 'isomorphic-fetch';
-import $ from 'jquery';
+import fetch from 'isomorphic-fetch';
 import { REQUEST_ISSUES, RECEIVE_ISSUES } from '../constants/ActionTypes.js';
 import { CONFIG } from '../constants/Config.js';
 
@@ -13,10 +12,10 @@ function requestIssues(filter, perPage) {
 }
 
 // 接收issues
-function receiveIssues(json) {
+function receiveIssues(data) {
   return {
     type: RECEIVE_ISSUES,
-    posts: json
+    posts: data
   };
 }
 
@@ -43,18 +42,18 @@ export function fetchIssues(filter, perPage) {
       }
     });
 
-    // fetch 获取 json 有问题
-    // return fetch(url, { method: 'GET' })
-    //   .then(response => {
-    //     response.json();
-    //   })
-    //   .then(json => {
-    //     console.log(json)
-    //     dispatch(receiveIssues(json));
-    //   });
-    //   .catch(e => {
-    //     window.location.href = href;
-    //   });
+    //fetch 获取 json 有问题
+  //   return fetch(url)
+  //     .then(response => {
+  //       response.json()
+  //     })
+  //     .then(data => {
+  //       console.log(data)
+  //       dispatch(receiveIssues(data))
+  //     })
+  //     .catch(e => {
+  //       console.log("Oops, error")
+  //     });
   };
 }
 

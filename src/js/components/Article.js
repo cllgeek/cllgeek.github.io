@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import marked from 'marked';
-import $ from 'jquery';
 import hljs from 'highlight.js';
 import { CONFIG } from '../constants/Config.js';
 

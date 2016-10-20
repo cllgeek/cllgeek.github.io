@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import { fetchIssuesIfNeeded } from '../actions/index.js';
 import Article from '../components/Article.js';
-import Menu from '../components/Menu'
+import Nav from '../components/Nav'
 
 class Post extends Component {
   constructor(props) {
@@ -30,7 +30,7 @@ class Post extends Component {
 
     return (
       <div>
-        <Menu />
+        <Nav />
         <div>
           {view}
         </div>
