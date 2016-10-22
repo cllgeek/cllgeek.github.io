@@ -2,11 +2,12 @@
 import objectAssign from 'object-assign';
 import { FETCH_ISSUES, RECEIVE_ISSUES } from '../constants/ActionTypes.js';
 import { fetchIssues, receiveIssues } from '../actions/index.js';
+import SImmutable from 'seamless-immutable';
 
-var defaultIssuesState = {
+var defaultIssuesState = SImmutable({
   isFetching: false,
   items: []
-};
+});
 
 // issues reducer
 function postIssues(defaultIssuesState, action) {

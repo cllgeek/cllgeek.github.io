@@ -1,10 +1,11 @@
-import React, { Component } from 'react';
+import React from 'react';
 import { connect } from 'react-redux';
 import { fetchIssuesIfNeeded } from '../actions/index.js';
 import CellView from '../components/CellView.js';
-import Nav from '../components/Nav'
+import Nav from '../components/Nav';
+import PureComponent from './PureComponent';
 
-class All extends Component {
+class All extends PureComponent {
   componentDidMount() {
     const { dispatch } = this.props;
     dispatch(fetchIssuesIfNeeded('created', 10000));

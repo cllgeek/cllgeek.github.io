@@ -1,10 +1,11 @@
-import React, { Component } from 'react';
+import React from 'react';
 import { connect } from 'react-redux';
 import { fetchIssuesIfNeeded } from '../actions/index.js';
 import Article from '../components/Article.js';
-import Nav from '../components/Nav'
+import Nav from '../components/Nav';
+import PureComponent from './PureComponent';
 
-class Post extends Component {
+class Post extends PureComponent {
   constructor(props) {
     super(props);
   }

@@ -1,10 +1,11 @@
-import React, { Component } from 'react';
+import React from 'react';
 import { connect } from 'react-redux';
 import { fetchIssuesIfNeeded } from '../actions/index.js';
 import CellView from '../components/CellView.js';
-import Nav from '../components/Nav'
+import Nav from '../components/Nav';
+import PureComponent from './PureComponent';
 
-class Archive extends Component {
+class Archive extends PureComponent {
   constructor(props) {
     super(props);
     this.spliceJson = this.spliceJson.bind(this);
