@@ -1,5 +1,4 @@
 // import { combineReducers } from 'redux';
-import objectAssign from 'object-assign';
 import { FETCH_ISSUES, RECEIVE_ISSUES } from '../constants/ActionTypes.js';
 import { fetchIssues, receiveIssues } from '../actions/index.js';
 import SImmutable from 'seamless-immutable';
@@ -10,23 +9,21 @@ var defaultIssuesState = SImmutable({
 });
 
 // issues reducer
-function postIssues(defaultIssuesState, action) {
+function postIssues(state=defaultIssuesState, action) {
   switch (action.type) {
     case FETCH_ISSUES:
       // 获取issues
-      return objectAssign({}, defaultIssuesState, {
-        isFetching: true
-      });
+      return state.set('isFetching',true);
 
     case RECEIVE_ISSUES:
       // 接收issues
-      return objectAssign({}, defaultIssuesState, {
+      return state.merge({
         isFetching: false,
         items: action.posts
       });
 
     default:
-      return defaultIssuesState;
+      return state;
   }
 }
 
