@@ -28,17 +28,9 @@ class All extends PureComponent {
 };
 
 function mapStateToProps(state) {
-  const {
-    isFetching,
-    items
-  } = state || {
-    isFetching: true,
-    items: []
-  };
-
   return {
-    isFetching,
-    items
+    isFetching:state.isFetching,
+    items:state.items
   }
 }
 
