@@ -29,7 +29,10 @@ export default class Nav extends Component{
                     </li>
                    <li>
                         <Link to="tags">标签</Link>
-                    </li>
+                   </li>
+                   <li>
+                        <a href="https://cllgeek.github.io/myFrontEndDemos/">demo</a>
+                   </li>
                 </ul>
             </div>
         </div>

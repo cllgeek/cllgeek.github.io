@@ -3,6 +3,7 @@ import { Router, Route, IndexRoute, useRouterHistory } from 'react-router';
 import { createHashHistory } from 'history';
 import { CONFIG } from '../constants/Config.js';
 import NProgress from 'nprogress';
+import DisplayContainer from '../components/Markdown/index.js'
 
 import Menu from '../components/Menu.js';
 import App from '../containers/App.js';
@@ -53,6 +54,7 @@ const routes = (
     <Route path="all" getComponent={All} />
     <Route path="archive" getComponent={Archive} />
     <Route path="tags" getComponent={Tags} />
+    <Route path="md" component={DisplayContainer} />
     <Route path="post/:id" getComponent={Post} />
   </Route>
 );

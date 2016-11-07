@@ -43,7 +43,7 @@ export default class Portfolio extends Component{
                     </div>
                 </div>
                 <div className="col-md-4 col-sm-6 portfolio-item">
-                    <a href="http://codepen.io/ThiagoFerreir4/full/QbKWGO" target="_blank" className="portfolio-link" data-toggle="modal">
+                    <a href="http://codepen.io/cllgeek/pen/RGXRdQ" target="_blank" className="portfolio-link" data-toggle="modal">
                         <div className="portfolio-hover">
                             <div className="portfolio-hover-content">
                                 <i className="fa fa-star fa-3x"></i>
