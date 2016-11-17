@@ -112,3 +112,19 @@ $ npm run build:win
 
 - 个人博客新鲜出炉。
 
+---
+
+* 微博:[cll](http://weibo.com/xyly66)
+* qq群:495489065
+
+## 文章列表
+
+#### 2016-11
+* [深入理解react（源码分析）](https://github.com/cllgeek/cllgeek.github.io/issues/5)
+* [React Redux Sever Rendering实战 ](https://github.com/cllgeek/cllgeek.github.io/issues/6)
+
+#### 2016-10
+* [js设计模式之一-单例模式](https://github.com/cllgeek/cllgeek.github.io/issues/1)
+* [js设计模式之二-构造函数模式](https://github.com/cllgeek/cllgeek.github.io/issues/2)
+* [js设计模式之三-建造者模式](https://github.com/cllgeek/cllgeek.github.io/issues/3)
+* [react-redux-react-router直通车](https://github.com/cllgeek/cllgeek.github.io/issues/4)
