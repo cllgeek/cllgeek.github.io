@@ -9,7 +9,7 @@ export default class Foot extends Component{
                 <div className="col-lg-12">
                     <ul className="list-inline">
                         <li>
-                            <a href="#">Home</a>
+                            <a href="/">Home</a>
                         </li>
                         <li className="footer-menu-divider">&sdot;</li>
                         <li>

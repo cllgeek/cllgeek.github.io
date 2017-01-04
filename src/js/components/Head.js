@@ -14,7 +14,7 @@ export default class Head extends Component{
                         <hr className="intro-divider" />
                         <ul className="list-inline intro-social-buttons">
                             <li>
-                                <a href="https://www.facebook.com/chen.lili.752" target="_blank" className="btn btn-default btn-lg"><i className="fa fa-facebook fa-fw"></i> <span className="network-name">Facebook</span></a>
+                                <a href="http://weibo.com/xyly66" target="_blank" className="btn btn-default btn-lg"><i className="fa fa-weibo fa-fw"></i> <span className="network-name">微博</span></a>
                             </li>
                             <li>
                                 <a href="https://github.com/cllgeek" target="_blank" className="btn btn-default btn-lg "><i className="fa fa-github fa-fw"></i> <span className="network-name">Github</span></a>
