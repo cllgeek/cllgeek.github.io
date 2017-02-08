@@ -15,7 +15,7 @@ export default class PageContent extends Component{
                       My passion is to use technology based solutions, to help solve real world challenges.<br />
                       <b>Competences:</b><br />
                       <b>Languages and Frameworks:</b><br />
-                      Javascript, HTML5, CSS3, jQuery, Bootstrap4, react.js, vue.js,nodejs,linux.<br />
+                      Javascript, HTML5, CSS3, jQuery, Bootstrap4, react.js, vue.js,nodejs,linux,mongodb.<br />
                       <b>Tools & expertise:</b><br />
                       Git, Responsive Web Design, Agile Methodologies.<br />
                       <b>Contact me:</b><br />
