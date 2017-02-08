@@ -65,6 +65,10 @@ $ npm run build:win
 
 ## 日志更新
 
+### v3.4
+ - 简化博客首页
+ - 使用seamless-immutable和react-pure-render优化代码
+
 ### v3.3
 
 - 去掉 -webkit-user-select；

@@ -19,10 +19,10 @@ export default class Nav extends Component{
              <div className="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul className="nav navbar-nav navbar-right">
                     <li>
-                        <Link to="/">首页</Link>
+                        <Link to="/">名片</Link>
                     </li>
                     <li>
-                        <Link to="all">全部</Link>
+                        <Link to="all">文章</Link>
                     </li>
                     <li>
                         <Link to="archive">归档</Link>
