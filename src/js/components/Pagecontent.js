@@ -10,7 +10,7 @@ export default class PageContent extends Component{
             <div className="row">
                 <div className="col-lg-10 col-sm-9">
                     <div className="clearfix"></div>
-                    <p className="lead">I'm a <a className="link" target="_blank" href="http://www.cllgeek.com/">self taught</a> web designer, developer based in guangdong.<br />
+                    <p className="lead">I'm a <a className="link" target="_blank" href="https://www.geekjc.com/">self taught</a> web designer, developer based in guangdong.<br />
                       I'm a front-end engineer, graduated from guangdong university of technology.<br />
                       My passion is to use technology based solutions, to help solve real world challenges.<br />
                       <b>Competences:</b><br />
@@ -23,7 +23,7 @@ export default class PageContent extends Component{
                     </p>
                 </div>
                 <div className="col-lg-2 col-sm-3 collapse navbar-collapse">
-                    <img className="img-circle img-responsive" src="https://www.cllgeek.com/avatar.png" alt="" />
+                    <img className="img-circle img-responsive" src="https://geekjc-img.geekjc.com/avatar.png" alt="llnewbie" />
                 </div>
             </div>
             <ul className="list-inline intro-social-buttons">
